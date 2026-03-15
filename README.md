@@ -3,6 +3,9 @@ Bechmarking the deep learning kcat prediction models. This repository also hosts
 **"Deep learning for enzyme $k_{\text{cat}}$ prediction: what works, what doesn't, and why?"**  
 *Zhang, Z., Wang, Z., Li, D., et al. (2026). [Journal Name], DOI: [To be updated]*
 
+
+![Overview of Benchmark framework design](https://github.com/zelixirSH/kcat_benchmark_2025/blob/main/images/fig1.png)
+
 ---
 
 ## 📦 Datasets Overview
@@ -40,8 +43,8 @@ Benchmarked models with GitHub repositories:
 | Model              | Model Description & Key Features                                                                | Repository Link                                      |
 |--------------------|-----------------------------------------------------------------------------|------------------------------------------------------|
 | **DLKcat**         | As the first deep learning model for $k_{\text{cat}}$ prediction, DLKcat was developed to parameterize enzyme-constrained genome-scale metabolic models. It employs a convolutional neural network (CNN) to process protein sequences, a graph neural network (GNN) to encode substrate structures, and an attention mechanism for the final prediction.      | [SysBioChalmers/DLKcat](https://github.com/SysBioChalmers/DLKcat) |
-| **UniKP**          | UniKP is a multi-task model capable of predicting $k_{\text{cat}}$, $K_{\text{m}}$, and $k_{\text{cat}}$/$K_{\text{m}}$. It utilizes ProtT5 for protein embeddings, a Transformer for substrate SMILES strings, and an Extra Trees regressor for output. Its extensible design allows integration of environmental factors (e.g., pH, temperature) in the EF-UniKP variant, supporting enzyme discovery and directed evolution. | [Luo-SynBioLab/UniKP](https://github.com/Luo-SynBioLab/UniKP) |
-| **CataPro**        | CataPro aims to enhance $k_{\text{cat}}$/$K_{\text{m}}$ (catalytic efficiency) prediction. It integrates multi-source features (ProtT5, MoT5, RDKit fingerprints), uses a feature attention layer, and incorporates a correction term mechanism. A strict sequence-similarity-based data split ensures generalization. | [zchwang/CataPro](https://github.com/zchwang/CataPro) |
+| **UniKP**          | UniKP is a multi-task model capable of predicting $k_{\text{cat}}$, $K_{\text{m}}$, and $k_{\text{cat}}$/ $K_{\text{m}}$. It utilizes ProtT5 for protein embeddings, a Transformer for substrate SMILES strings, and an Extra Trees regressor for output. Its extensible design allows integration of environmental factors (e.g., pH, temperature) in the EF-UniKP variant, supporting enzyme discovery and directed evolution. | [Luo-SynBioLab/UniKP](https://github.com/Luo-SynBioLab/UniKP) |
+| **CataPro**        | CataPro aims to enhance $k_{\text{cat}}$/ $K_{\text{m}}$ (catalytic efficiency) prediction. It integrates multi-source features (ProtT5, MoT5, RDKit fingerprints), uses a feature attention layer, and incorporates a correction term mechanism. A strict sequence-similarity-based data split ensures generalization. | [zchwang/CataPro](https://github.com/zchwang/CataPro) |
 | **EITLEM-Kinetics**| EK is designed for mutant enzyme prediction via iterative transfer learning. It uses ESM-1b for protein embeddings, MACCS Keys for substrate fingerprints, and employs ProMolAtt and AttentionAgg modules for feature enhancement before final prediction with a fully connected network. | [XvesS/EITLEM-Kinetics](https://github.com/XvesS/EITLEM-Kinetics) |
 | **TurNuP**         | TurNuP predicts in vitro $k_{\text{cat}}$ for wild-type enzymes in natural reactions. It combines a Transformer for protein sequence embeddings with Differential Reaction Fingerprints (DRFP) to encode full reaction context (substrates \& products), followed by an XGBoost regressor.  | [AlexanderKroll/kcat_prediction](https://github.com/AlexanderKroll/kcat_prediction) |
 
