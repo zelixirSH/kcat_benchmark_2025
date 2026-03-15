@@ -117,7 +117,6 @@ doi={[To be updated]}
 - **Issues**: [GitHub Issues](https://github.com/zelixirSH/kcat_benchmark_2025/issues)
 - **Contact**:  
   Zhongyang Zhang: `zhangzhongyang@ynnu.edu.cn`  
-  Liangzhen Zheng: `zhenglz@zelixir.com`
 
 ---
 
