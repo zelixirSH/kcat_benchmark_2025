@@ -25,6 +25,7 @@ Clone the repository:
 
 
 bash
+
 git clone https://github.com/zelixirSH/kcat_benchmark_2025.git
 
 Data files are in `/data`. Column descriptions (e.g., units for `kcat_value` in s⁻¹) are in file headers.
