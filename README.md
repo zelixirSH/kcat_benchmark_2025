@@ -67,8 +67,19 @@ Results for 98 *PjxA* xylanase mutants (Paper Fig. 6):
 
 ## 📜 License & Citation
 ### License
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-*Free for academic use with attribution.*
+The datasets and supplementary materials in this repository are licensed under the [MIT License](LICENSE).  
+Key permissions under this license include:
+- ✅ Free use for academic and commercial purposes
+- ✅ Freedom to modify and distribute
+- ✅ Permission to sublicense
+- ✅ Use in proprietary software
+
+**Requirements**:
+- Include the original copyright notice in all copies
+- Maintain the license text in all substantial portions
+
+**Disclaimer**:  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. See full [LICENSE](LICENSE) for details.
 
 ### How to Cite
 bibtex
@@ -119,5 +130,5 @@ kcat_benchmark_2025/
 
 ├── LICENSE
 
-└── CHANGELOG.md
+└── README.md
 
