@@ -111,13 +111,13 @@ doi={[To be updated]}
 
 kcat_benchmark_2025/
 
-├── data/                       # Core datasets
+├── data/
 
-├── supplementary/              # Supplementary PDF
+├── supplementary/
 
-├── scripts/                    # Data processing scripts
+├── images/
 
-├── LICENSE                     # CC-BY 4.0 license
+├── LICENSE
 
-└── CHANGELOG.md                # Version history
+└── CHANGELOG.md
 
