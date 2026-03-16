@@ -19,17 +19,17 @@ Data files are stored in `/data`.
 | **PETase**          | Engineered PET hydrolases (Norton-Baker et al., 2025)                                | Relative activity scores for 214 enzymes                                   | `/data/PET/PETase_experiment_data.csv`   |
 | **DMS**             | ProteinGym database                                                                  | Fitness scores for single-point mutants (8 enzyme systems)                 | `/data/DMS/`|
 | **Enzyme-Inhibitor**| BindingDB & ChEMBL (2026)                                                            | 2899 entries for 28 enzymes                                      | `/data/inhibitor/Inhibitor_data.csv`|
-
+| **P450**            | P450 kinetics data from Brenda and SABIO-RK and via zERExtractor                     | 215 enzyme-catalyzed entries with kinetics data                            | `/data/P450/P450_experiment_data.csv`|
 ---
 
 ## ⚙️ Installation & Usage
 ### Data Access
 Clone the repository:
 
-
-bash
-
+```
+# bash
 git clone https://github.com/zelixirSH/kcat_benchmark_2025.git
+```
 
 Data files are in `/data`. Column descriptions (e.g., units for `kcat_value` in s⁻¹) are in file headers.
 
