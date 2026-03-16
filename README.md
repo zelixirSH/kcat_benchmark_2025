@@ -18,7 +18,7 @@ Data files are stored in `/data`.
 | **ADK**             | High-throughput assays (Muir et al., 2025)                                           | $k_{\text{cat}}$ for 178 adenylate kinase variants                       | `/data/ADK/ADK_experiment_data.csv`          |
 | **PETase**          | Engineered PET hydrolases (Norton-Baker et al., 2025)                                | Relative activity scores for 214 enzymes                                   | `/data/PET/PETase_experiment_data.csv`   |
 | **DMS**             | ProteinGym database                                                                  | Fitness scores for single-point mutants (8 enzyme systems)                 | `/data/DMS/`|
-| **Enzyme-Inhibitor**| BindingDB & ChEMBL (2026)                                                            | 28 enzyme-substrate-inhibitor triples                                      | `/data/inhibitor/Inhibitor_data.csv`|
+| **Enzyme-Inhibitor**| BindingDB & ChEMBL (2026)                                                            | 2899 entries for 28 enzymes                                      | `/data/inhibitor/Inhibitor_data.csv`|
 
 ---
 
