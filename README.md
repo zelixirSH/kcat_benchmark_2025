@@ -10,15 +10,15 @@ Bechmarking the deep learning kcat prediction models. This repository also hosts
 
 ## 📦 Datasets Overview
 All datasets were processed using task-specific curation protocols (detailed in the [Supplementary Information](supplementary/Supplementary_Information.pdf)).  
-Data files are stored in `/data` (CSV/TSV format).
+Data files are stored in `/data`.
 
 | Dataset             | Source & Description                                                                 | Key Metrics                                                                 | File Path                     |
 |---------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------|
-| **KcatTIE**         | Literature-derived (2023–2025) via zERExtractor                                      | 162 $k_{\text{cat}}$ values for 63 enzymes                               | `/data/KcatTIE_data.csv`      |
-| **ADK**             | High-throughput assays (Muir et al., 2025)                                           | $k_{\text{cat}}$ for 178 adenylate kinase variants                       | `/data/ADK_data.csv`          |
-| **PETase**          | Engineered PET hydrolases (Norton-Baker et al., 2025)                                | Relative activity scores for 214 enzymes                                   | `/data/PETase_activity.csv`   |
-| **DMS**             | ProteinGym database                                                                  | Fitness scores for single-point mutants (8 enzyme systems)                 | `/data/DMS_fitness_scores.csv`|
-| **Enzyme-Inhibitor**| BindingDB & ChEMBL (2026)                                                            | 28 enzyme-substrate-inhibitor triples                                      | `/data/enzyme_inhibitor_pairs.csv`|
+| **KcatTIE**         | Literature-derived (2023–2025) via zERExtractor                                      | 162 $k_{\text{cat}}$ values for 63 enzymes                               | `/data/KcatTIE/KcatTIE_experiment_data.csv`      |
+| **ADK**             | High-throughput assays (Muir et al., 2025)                                           | $k_{\text{cat}}$ for 178 adenylate kinase variants                       | `/data/ADK/ADK_experiment_data.csv`          |
+| **PETase**          | Engineered PET hydrolases (Norton-Baker et al., 2025)                                | Relative activity scores for 214 enzymes                                   | `/data/PET/PETase_experiment_data.csv`   |
+| **DMS**             | ProteinGym database                                                                  | Fitness scores for single-point mutants (8 enzyme systems)                 | `/data/DMS/`|
+| **Enzyme-Inhibitor**| BindingDB & ChEMBL (2026)                                                            | 28 enzyme-substrate-inhibitor triples                                      | `/data/inhibitor/Inhibitor_data.csv`|
 
 ---
 
