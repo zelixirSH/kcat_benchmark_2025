@@ -1,1 +1,0 @@
-Please note that the KcatTIE dataset contains 152 kcat values. However, there were several cases that some prediction models could not process successfully, leading to a common set of 145 entries as shown in the output data.
